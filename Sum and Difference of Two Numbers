@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+	int x,y;
+    float a,b;
+    scanf("%d\t%d\n",&x,&y);
+    scanf("%f\t%f",&a,&b);
+    printf("%d\t%d\n",x+y,x-y);
+    printf("%0.1f\t%0.1f",a+b,a-b); 
+    return 0;
+}
+
+# Input (stdin):
+10 4
+4.0 2.0
+# Expected Output:
+14 6
+6.0 2.0
